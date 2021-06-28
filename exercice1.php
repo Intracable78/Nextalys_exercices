@@ -7,7 +7,7 @@ function menuExercice1(){
 while(true){ // boucle de sécurisation pour redemander les informations en cas de valeurs saisies incorrectes
 
 echo "Bienvenue dans l'exercice 1 ! 
-Le but de celui-ci est d'estimer le montant de vos ventes en fonctions du prix par personne que vous allez choisir ainsi que le nombre de tables.
+Le but de celui-ci est d'estimer le montant de vos ventes en fonction du prix par personne que vous allez choisir ainsi que le nombre de table servie et le nombre de personne par table.
 3 informations vous seront demandées :
 - Le prix par personne
 - le nombre de table servies

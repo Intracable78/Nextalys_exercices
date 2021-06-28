@@ -5,7 +5,7 @@ function menuExercice2(){
     while(true){ // boucle de sécurisation pour redemander les informations en cas de valeurs saisies incorrectes
     
     echo "Bienvenue dans l'exercice 2 ! 
-    Le but de celui-ci est d'estimer le nombre d'aller/retours que devra faire le monte-charge celui le nombre de carton et le poid.
+    Le but de celui-ci est d'estimer le nombre d'aller/retour que devra faire le monte-charge selon le nombre de carton et le poid.
     2 informations vous seront demandées :
     - Le nombre de carton
     - le poid d'un carton
@@ -13,6 +13,8 @@ function menuExercice2(){
     
     $lancement = readline('Voulez-vous lancer le programme ? (oui = lancer, non = quitter) : '); // valeur renseignée par l'utilisateur
     
+//vérification de la saisie des informations de l'utilisateur
+
     if($lancement === "oui"){
         exercice2();
         break;
@@ -105,12 +107,11 @@ function exercice2(){
 
     //affichage du nombre nombre d'aller/retours à effectuer
 
-    echo "Le nombre d'aller/retours pour " . $nbCarton . " cartons qui font " . $poidCarton . " chacun s'émève à " . ceil($nbAllerRetour) . "\n";
+    echo "Le nombre d'aller/retours pour " . $nbCarton . " cartons qui font " . $poidCarton . " chacun s'élève à " . ceil($nbAllerRetour) . "\n";
 
     // appel de la fonction menuExitExercice2 afin de demander à l'utilisateur l'action qu'il souhaite réaliser
 
     menuExitExercice2();
-
 
     }
 
@@ -144,8 +145,4 @@ function exercice2(){
         }
         
     }
-
-
-
-
 ?>
